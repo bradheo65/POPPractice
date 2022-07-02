@@ -17,3 +17,8 @@ let macBookProCharger = Charger(maximumWattPerHour: 140)
 
 macBookPro.chargeBattery(charger: macBookProCharger)
 
+var gucciBag = Bag()
+gucciBag.put(item: macBookPro)
+gucciBag.put(item: macBookProCharger)
+
+print(gucciBag.items)

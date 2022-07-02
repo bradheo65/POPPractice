@@ -5,7 +5,7 @@
 //  Created by 허건 on 2022/07/02.
 //
 
-struct Macbook {
+struct Macbook: Portable {
     let allowedChargeWatts: Watt
     let storedBatteryLevel: Watt
     let maxiumBatteryLevel: Watt
@@ -22,6 +22,7 @@ struct Macbook {
             return
         }
         let watt = charger.convert(chargeableWattPerHour: allowedChargeWatts)
-        print(((maxiumBatteryLevel - storedBatteryLevel)/watt))
+        let hour = (maxiumBatteryLevel - storedBatteryLevel) / watt
+        print(hour)
     }
 }

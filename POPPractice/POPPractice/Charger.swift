@@ -5,7 +5,7 @@
 //  Created by dhoney96 on 2022/07/02.
 //
 
-struct Charger: Chargeable {
+struct Charger: Chargeable, Portable {
     var maximumWattPerHour: WattPerHour
     
     init(maximumWattPerHour: WattPerHour) {

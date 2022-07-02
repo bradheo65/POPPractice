@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72B04767286FD60500F0D3EA /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B04766286FD60500F0D3EA /* Charger.swift */; };
+		72B04769286FEE8400F0D3EA /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B04768286FEE8400F0D3EA /* Bag.swift */; };
 		A3275BAA286FD46100404012 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3275BA9286FD46100404012 /* main.swift */; };
 		A3275BB1286FD48B00404012 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3275BB0286FD48B00404012 /* Protocol.swift */; };
 		A3275BB3286FD5EA00404012 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3275BB2286FD5EA00404012 /* MacBook.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		72B04766286FD60500F0D3EA /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+		72B04768286FEE8400F0D3EA /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		A3275BA6286FD46100404012 /* POPPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POPPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3275BA9286FD46100404012 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A3275BB0286FD48B00404012 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A3275BB0286FD48B00404012 /* Protocol.swift */,
 				A3275BB2286FD5EA00404012 /* MacBook.swift */,
 				72B04766286FD60500F0D3EA /* Charger.swift */,
+				72B04768286FEE8400F0D3EA /* Bag.swift */,
 			);
 			path = POPPractice;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B04769286FEE8400F0D3EA /* Bag.swift in Sources */,
 				A3275BAA286FD46100404012 /* main.swift in Sources */,
 				A3275BB3286FD5EA00404012 /* MacBook.swift in Sources */,
 				72B04767286FD60500F0D3EA /* Charger.swift in Sources */,
